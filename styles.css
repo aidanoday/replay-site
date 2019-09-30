@@ -117,6 +117,79 @@ header a {
   color: #383838;
 }
 
+
+#followForm {
+    position: absolute;
+    width: 392px;
+    height: 31px;
+    left: calc (50%-196);
+    top: 450px;
+
+    background: linear-gradient(90.73deg, #05A5F1 0.08%, #07CBF8 99.93%);
+    border: 1px solid #71A9F0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+
+#followFormEntry {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 4px;
+    top: 3px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgba(255,255,255,100);
+    padding: 15px
+
+}
+
+.email-box {
+    position: absolute;
+    width: 270px;
+    height: 15px;
+    left: 3px;
+    top: 3px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgba(255,255,255,100);
+    padding: 4px;
+    border-radius: 2px;
+    border: none;
+    
+}
+
+.follow-button {
+    position: absolute;   
+    font-family: Open Sans;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    right: 25px;
+    top:4px;
+    height: 18px;
+    padding: none;
+    border: none;
+    background: none;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+::placeholder {
+    color: white;
+    opacity:1;
+}
+
+
 .replay-logo {
   z-index: 10;
   margin-top: 80px;
